@@ -1,0 +1,11 @@
+shopflow:
+  target: dev
+  outputs:
+    dev:
+      catalog: shopflow
+      host: dbc-221765d5-da63.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/98fa17f33b2ec240
+      schema: bronze
+      threads: 1
+      token: dapie8346e0d0755301513bc1a0b0b18051e
+      type: databricks
